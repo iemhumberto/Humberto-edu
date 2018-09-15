@@ -61,3 +61,57 @@ html {
     border-radius: 8px;
     margin: 20px;
 }
+/*Elemento del layout globales*/
+
+/*Footer principal*/
+.footer-size {
+    height: 20px !important;
+    background-color: rgb(50, 50, 50);
+}
+.footer-desp {
+    font-size: 1.5em;
+    font-style: bold;
+}
+/*Sesión docentes*/
+.header-salon-docentes {
+    background-image: url('http://res.cloudinary.com/cristiansam/image/upload/v1537043980/Humberto-ui/salon-clases-docentes.jpg') !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100) !important;
+}
+
+.doc-title {
+    font-size: 3em;
+}
+.doc-subtitle {
+    font-size: 1.3em;
+}
+
+.doc-titulo-principal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+}
+/*Sesión estudiantes*/
+.header-salon-estudiantes {
+    background-image: url('http://res.cloudinary.com/cristiansam/image/upload/v1537044971/Humberto-ui/entorno-estudiante.jpg') !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100) !important;
+}
+/*Sesión visitantes*/
+.header-visitantes {
+    background-image: url('http://res.cloudinary.com/cristiansam/image/upload/v1537045164/Humberto-ui/entorno-visitantes.jpg') !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100) !important;
+}
+
+

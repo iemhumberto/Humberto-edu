@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import '../App.css';
 
+/*Imports de elementos del layout */
+import Footer from '../Components/Footer';
+
 /*Enrutado con Link desde react-router-dom */
 import {Link} from 'react-router-dom';
 
@@ -75,6 +78,7 @@ class Home extends Component {
                         {/*Finaliza card en cuestión*/}
                     </div>
                 </div>
+                <Footer/>
             </section>
         );
     }
