@@ -1,29 +1,42 @@
 import React, {Component} from 'react';
 import '../App.css';
 
+/*Enrutado con Link desde react-router-dom */
+import {Link} from 'react-router-dom';
+
+/*Source de las imágenes para build */
+
+const docProfile = 'http://res.cloudinary.com/cristiansam/image/upload/v1537037797/Humberto-ui/perfi' +
+        'l-docente.svg';
+const estProfile = 'http://res.cloudinary.com/cristiansam/image/upload/v1537038940/Humberto-ui/perfi' +
+        'l-estudiante.svg';
+const visProfile = 'http://res.cloudinary.com/cristiansam/image/upload/v1537039055/Humberto-ui/perfi' +
+        'l-visitantes.svg';
+
 class Home extends Component {
     render() {
         return (
-            <section className="hero is-success is-fullheight header">
+            <section className="hero is-success is-fullheight header-principal">
                 <div className="hero-body">
-                    <div class="container">
-                        <h1 class="title iem">
-                            IEM
+                    <div className="container">
+                        <h1 className="title iem">
+                            <p>IEM</p>
                         </h1>
                         <h2 className="sub-institute">Humberto Muñoz Ordoñez</h2>
-                        <h2 className="descp-obj">"Conectando intelecto y medios digitales"</h2>
+                        <h2 className="subtitle descp-obj">"Conectando intelecto y medios digitales"</h2>
                     </div>
                     {/*Primer card*/}
                     <div className="card-master">
                         <div className="card roles">
                             <div className="card-header">
                                 <div className="card-header-title">
-                                    Docentes
+                                    <p className="item-background-doc">Docentes</p>
                                 </div>
                                 <div className="card-content">
                                     <div className="content">
                                         <p>Contenidos para la comunidad de maestros. Manténgase actualizado.</p>
-                                        <a class="button is-normal">Ir ahora</a>
+                                        <Link to="/docentes" className="button is-normal">Ir ahora</Link>
+                                        <img className="img-profile-home" src={docProfile} alt="Perfil docente"/>
                                     </div>
                                 </div>
                             </div>
@@ -32,12 +45,13 @@ class Home extends Component {
                         <div className="card roles">
                             <div className="card-header">
                                 <div className="card-header-title">
-                                    Estudiantes
+                                    <p className="item-background-est">Estudiantes</p>
                                 </div>
                                 <div className="card-content">
                                     <div className="content">
                                         <p>Eventos, actividades, programación semanal para nuestros estudiantes.</p>
-                                        <a class="button is-normal">Ir ahora</a>
+                                        <Link to="/estudiantes" className="button is-normal">Ir ahora</Link>
+                                        <img className="img-profile-home" src={estProfile} alt="Perfil docente"/>
                                     </div>
                                 </div>
                             </div>
@@ -47,12 +61,13 @@ class Home extends Component {
                         <div className="card roles">
                             <div className="card-header">
                                 <div className="card-header-title">
-                                    Visitantes
+                                    <p className="item-background-vis">Visitantes</p>
                                 </div>
                                 <div className="card-content">
                                     <div className="content">
                                         <p>Conozca, aprenda y contribuya con la comunidad estudiantil interconectada.</p>
-                                        <a class="button is-normal">Ir ahora</a>
+                                        <Link to="/visitantes" className="button is-normal">Ir ahora</Link>
+                                        <img className="img-profile-home" src={visProfile} alt="Perfil visitante"/>
                                     </div>
                                 </div>
                             </div>
