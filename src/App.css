@@ -65,12 +65,20 @@ html {
 
 /*Footer principal*/
 .footer-size {
-    height: 20px !important;
+    height: 25px !important;
     background-color: rgb(50, 50, 50);
 }
 .footer-desp {
     font-size: 1.5em;
     font-style: bold;
+}
+.footer-version {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2em;
+    background-color: white;
 }
 /*Sesión docentes*/
 .header-salon-docentes {
