@@ -122,4 +122,11 @@ html {
     background-color: rgb(100, 100, 100) !important;
 }
 
-
+/*HomeBelow estilos*/
+.image-entorno img {
+    display: flex;
+    max-width: 300px;
+}
+.texto-entorno {
+    display: inline-flex;
+}
