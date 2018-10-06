@@ -23,7 +23,6 @@ html {
 }
 .descp-obj {
     display: inline-block;
-    font-style: italic;
     background: white;
     color: black !important;
     font-weight: bold;
@@ -69,12 +68,14 @@ html {
     background-color: rgb(50, 50, 50);
 }
 .footer-desp {
+    color: white;
     font-size: 1.5em;
     font-style: bold;
 }
 .footer-version {
     display: inline-block;
-    padding: 3px;
+    margin-top: -20px;
+    padding: 5px;
     border-radius: 5px;
     color: black;
     font-size: 1.2em;
@@ -123,10 +124,22 @@ html {
 }
 
 /*HomeBelow estilos*/
-.image-entorno img {
+
+.imagen-entorno-doc {
     display: flex;
-    max-width: 300px;
+    width: 40%;
+    margin: 20px;
+    margin-top: 0%;
 }
-.texto-entorno {
-    display: inline-flex;
+.entorno-doc {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0%;
+}
+.color-doc {
+    background-color: white;
 }
