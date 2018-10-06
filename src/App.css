@@ -30,6 +30,56 @@ html {
     margin-top: 10px;
     border-radius: 5px;
 }
+
+/*Banner de home*/
+.social-media {
+    display: flex;
+    background-color: #54BC4C;
+    width: 100%;
+    height: 80px;
+}
+.icons {
+    font-size: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.follow p {
+    display: flex;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 5%;
+    align-items: flex-start;
+}
+
+.link-col {
+    display: flex;
+    text-decoration: none !important;
+    background-color: white;
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 2.1em;
+    font-weight: bold;
+    margin-left: 15%;
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.link-col a {
+    text-decoration: none !important;
+    color:#54BC4C;
+}
+.link-col i {
+    padding: 10px;
+}
+
 .item-background-doc {
     background-color: #2366F9;
     color: white;
@@ -128,8 +178,7 @@ html {
 .imagen-entorno-doc {
     display: flex;
     width: 40%;
-    margin: 20px;
-    margin-top: 0%;
+    margin: 0 20px 20px;
 }
 .entorno-doc {
     display: flex;
@@ -138,8 +187,40 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 0%;
+    margin-top: 0;
 }
 .color-doc {
-    background-color: white;
+    background-color: #DCDCDC;
+}
+
+.infraestructura-inst {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0 !important;
+}
+.imagen-infraestructura-inst {
+    display: flex;
+    width: 40%;
+    margin: 0 20px 20px;
+    position: relative;
+}
+
+.deportistas-humberto {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0 !important;
+}
+.imagen-deportistas-humberto {
+    display: flex;
+    width: 40%;
+    margin: 0 20px 20px;
+    position: relative;
 }

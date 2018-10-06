@@ -4,6 +4,7 @@ import '../App.css';
 /*Imports de elementos del layout */
 import HomeBelow from './Home-below';
 import Footer from '../Components/Footer';
+import Banner from '../Components/Banner';
 
 /*Enrutado con Link desde react-router-dom */
 import {Link} from 'react-router-dom';
@@ -81,6 +82,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
+                <Banner/>
                 <section>
                     <HomeBelow/>
                     <Footer/>
