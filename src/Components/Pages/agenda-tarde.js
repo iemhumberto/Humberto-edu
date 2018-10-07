@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import Footer from '../../Components/Footer';
 import '../../App.css';
 
+/*Import del board data de jornada tarde*/
+import BoardTarde from '../../Components/data/Board-tarde';
+
 const BookAni = 'https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif';
 class AgendaTarde extends Component {
     render() {
@@ -25,7 +28,9 @@ class AgendaTarde extends Component {
                     </div>
                     <span className="tag is-primary is-medium b-identificador">Jornada Tarde</span>
                 </div>
-                <section></section>
+                <section>
+                    <BoardTarde/>
+                </section>
                 <Footer/>
             </section>
         );

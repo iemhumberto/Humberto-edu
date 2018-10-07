@@ -358,3 +358,42 @@ div.maestro p {
     flex-direction: column;
     margin: auto;
 }
+.content-board {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    align-content: center;
+    width: 60%;
+    height: 8vh;
+}
+
+/*Info tags tarde-maañana*/
+.info-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Días de la semana para info*/
+.dias-semana-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px !important;
+    justify-content: space-between;
+}
+
+/*Espacio entre las cards*/
+.space-around {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.space-around p  {
+    display: flex;
+    margin-left: 10px;
+}
