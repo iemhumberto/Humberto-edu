@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-
+import Mapa from './Map';
 const EstEnv = 'https://res.cloudinary.com/cristiansam/image/upload/v1538848740/Entorno-estudiar' +
         '-Humberto-Mu%C3%B1oz.svg';
 const InfraEst = 'https://res.cloudinary.com/cristiansam/image/upload/v1538861147/Infraestructura-' +
@@ -8,6 +8,7 @@ const InfraEst = 'https://res.cloudinary.com/cristiansam/image/upload/v153886114
 
 const DeparTalentos = 'https://res.cloudinary.com/cristiansam/image/upload/v1538862990/Talentos-deporti' +
         'stas-Humberto-Mu%C3%B1oz.svg';
+
 class HomeBelow extends Component {
     render() {
         return (
@@ -61,7 +62,7 @@ class HomeBelow extends Component {
                                 <p className="subtitle">Mejor planta física a nivel del departamento</p>
                                 <div className="content">
                                     <p>Nuestros estudiantes se preparan para eliminatorias locales, departamentales
-                                       e incluso Nacionales. Demuestran talento, práctica y esfuerzo.
+                                        e incluso Nacionales. Demuestran talento, práctica y esfuerzo.
                                     </p>
                                     <Link to="/talento" className="button is-info is-inverted">Ver deportistas insignia</Link>
                                 </div>
@@ -69,8 +70,10 @@ class HomeBelow extends Component {
                         </div>
                     </div>
                 </section>
+                <section>
+                    <Mapa/>
+                </section>
             </section>
-
         );
     }
 }
