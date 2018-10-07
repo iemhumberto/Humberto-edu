@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import Docentes from './Components/Pages/Docentes';
 import Estudiantes from './Components/Pages/Estudiantes';
 import Visitantes from './Components/Pages/Visitantes';
+import {NotFound} from './Components/Pages/NotFound';
 import Home from './Components/Home';
 
 import {Switch, Route} from 'react-router-dom';
@@ -17,6 +18,7 @@ class Router extends Component {
                     <Route exact path="/docentes" component={Docentes}></Route>
                     <Route exact path="/estudiantes" component={Estudiantes}></Route>
                     <Route exact path="/visitantes" component={Visitantes}></Route>
+                    <Route component={NotFound}></Route>
                 </Switch>
             </div>
         );

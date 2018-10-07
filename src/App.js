@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import NotFound from './pages/NotFound';
 
 /*Elementos de UI credos*/
 import Home from './Components/Home';
