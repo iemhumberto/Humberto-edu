@@ -34,7 +34,7 @@ html {
 /*Banner de home*/
 .social-media {
     display: flex;
-    background-color: #54BC4C;
+    background-color: #0c6cd4;
     width: 100%;
     height: 80px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -75,7 +75,7 @@ html {
 }
 .link-col a {
     text-decoration: none !important;
-    color:#54BC4C;
+    color:#0c6cd4;
 }
 .link-col i {
     padding: 10px;

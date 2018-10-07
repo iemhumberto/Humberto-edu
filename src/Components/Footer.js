@@ -6,7 +6,7 @@ class Footer extends Component {
             <footer className="footer footer-size">
                 <div className="content has-text-centered">
                 <p className="footer-desp">IEM Humberto Muñoz Ordoñez | 2018</p>
-                <p className="footer-version">Versión <strong>0.2.1</strong></p>
+                <p className="footer-version">Versión <strong>0.3.2</strong></p>
                 </div>
             </footer>
         );

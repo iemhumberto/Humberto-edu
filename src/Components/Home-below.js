@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import Mapa from './Map';
 const EstEnv = 'https://res.cloudinary.com/cristiansam/image/upload/v1538848740/Entorno-estudiar' +
         '-Humberto-Mu%C3%B1oz.svg';
 const InfraEst = 'https://res.cloudinary.com/cristiansam/image/upload/v1538861147/Infraestructura-' +
@@ -9,6 +8,9 @@ const InfraEst = 'https://res.cloudinary.com/cristiansam/image/upload/v153886114
 const DeparTalentos = 'https://res.cloudinary.com/cristiansam/image/upload/v1538862990/Talentos-deporti' +
         'stas-Humberto-Mu%C3%B1oz.svg';
 
+const UbiHumb = 'https://res.cloudinary.com/cristiansam/image/upload/v1538922160/Ubicacion-Humber' +
+        'to-Munoz-Instituto.svg';
+const DireInst = 'https://goo.gl/maps/kxjR7jVPgds';
 class HomeBelow extends Component {
     render() {
         return (
@@ -71,7 +73,24 @@ class HomeBelow extends Component {
                     </div>
                 </section>
                 <section>
-                    <Mapa/>
+                    <div className="row">
+                        <img
+                            className="imagen-deportistas-humberto"
+                            src={UbiHumb}
+                            alt="Infraestructura de la Institución"/>
+                        <div className="deportistas-humberto tile is-parent">
+                            <div className="tile is-child notification is-info">
+                                <p className="title">Ubicación de la Institución</p>
+                                <p className="subtitle">Dirección vía Google Maps.</p>
+                                <div className="content">
+                                    <p>Ubique fácilmente las instalaciones de la Institución y visítenos.
+                                        Estamos constantemente abiertos para recibir novedades.
+                                    </p>
+                                    <a href={DireInst} className="button is-info is-inverted">Ver mapa</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </section>
         );
