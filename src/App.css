@@ -1,4 +1,4 @@
-@import url( 'https://fonts.googleapis.com/css?family=Quicksand');
+@import url( 'https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 body,
 html {
@@ -66,8 +66,7 @@ html {
     padding: 7px;
     font-size: 2.1em;
     font-weight: bold;
-    margin-left: 15%;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
     flex-direction: row;
     justify-content: center;
     align-content: center;
@@ -75,7 +74,7 @@ html {
 }
 .link-col a {
     text-decoration: none !important;
-    color:#0c6cd4;
+    color: #0c6cd4;
 }
 .link-col i {
     padding: 10px;
@@ -151,9 +150,15 @@ html {
 
 .doc-titulo-principal {
     display: flex;
+    color: white;
+    border-radius: 0 0 5px 5px;
     text-align: center;
+    padding: 10px;
+    background-color: gray;
     justify-content: center;
-    margin: 30px;
+    align-self: center;
+    margin: auto;
+    width: 50%;
 }
 /*Sesión estudiantes*/
 .header-salon-estudiantes {
@@ -259,3 +264,60 @@ html {
     margin: auto;
     width: 50%;
 }
+
+/*Componente insignia de DocInsignia*/
+.insignia-icon {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 120px;
+}
+
+.insignia-description {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.Docentes-insignia {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+div.maestro {
+    display: flex;
+    margin: 20px;
+    justify-items: center;
+    position: relative;
+    width: 270px;
+    height: 340px;
+}
+div.maestro img {
+    max-width: 100%;
+    border-radius: 5px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all 0.5s ease-in-out;
+}
+div.maestro:hover img {
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+}
+
+div.maestro p {
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    padding: 15px 10px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease-in-out;
+  }
+  div.maestro:hover p {
+      bottom: -80px;
+      opacity: 0;
+  }

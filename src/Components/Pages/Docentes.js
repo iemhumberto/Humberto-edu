@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import DocInsignia from '../../Components/Docentes/DocInsignia';
+import Footer from '../../Components/Footer';
 
 class Docentes extends Component {
     render() {
@@ -9,7 +11,7 @@ class Docentes extends Component {
                         <div className="container">
                             <h1 className="title doc-title">Bienvenido, Docente.</h1>
                             <h2 className="subtitle doc-subtitle">Herramientas e información a su
-                                <strong> alcance</strong>
+                                <strong><br/>alcance</strong>
                             </h2>
                         </div>
                     </div>
@@ -18,6 +20,10 @@ class Docentes extends Component {
                     <div>
                         <h3 className="title is-3 doc-titulo-principal">Instruyendo profesionales</h3>
                     </div>
+                </section>
+                <section>
+                    <DocInsignia/>
+                    <Footer/>
                 </section>
             </div>
         );
