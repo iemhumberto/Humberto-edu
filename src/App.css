@@ -335,3 +335,26 @@ div.maestro p {
     justify-content: space-between;
     margin: auto;
 }
+
+/*Book de las jornadas*/
+.book-mañana img {
+    display: flex;
+    margin: 0 0 0 0;
+}
+.tarjeta-informativa {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 25%;
+    height: 30%;
+    border-radius: 8px !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.b-identificador {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

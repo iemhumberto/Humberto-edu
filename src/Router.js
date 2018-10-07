@@ -6,6 +6,8 @@ import Estudiantes from './Components/Pages/Estudiantes';
 import Visitantes from './Components/Pages/Visitantes';
 import {NotFound} from './Components/Pages/NotFound';
 import Home from './Components/Home';
+import AgendaMañana from './Components/Pages/agenda-mañana';
+import AgendaTarde from './Components/Pages/agenda-tarde';
 
 import {Switch, Route} from 'react-router-dom';
 
@@ -18,6 +20,8 @@ class Router extends Component {
                     <Route exact path="/docentes" component={Docentes}></Route>
                     <Route exact path="/estudiantes" component={Estudiantes}></Route>
                     <Route exact path="/visitantes" component={Visitantes}></Route>
+                    <Route exact path="/agenda-mañana" component={AgendaMañana}></Route>
+                    <Route exact path="/agenda-tarde" component={AgendaTarde}></Route>
                     <Route component={NotFound}></Route>
                 </Switch>
             </div>
