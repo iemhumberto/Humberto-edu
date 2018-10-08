@@ -30,7 +30,27 @@ html {
     margin-top: 10px;
     border-radius: 5px;
 }
-
+/*INTRO PRINCIPAL*/
+.intro-image  {
+    display: flex;
+    background-image: url('https://res.cloudinary.com/cristiansam/image/upload/v1539037429/Humberto-ui/Intro.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgb(100, 100, 100) !important;
+    background-blend-mode: soft-light;
+}
+.intro-titulo {
+    font-size: 3em;
+}
+/*Botones para elegir dispositivo*/
+.b-elegir-dispositivo {
+    display: flex;
+    flex-direction: column !important;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
 /*Banner de home*/
 .social-media {
     display: flex;
@@ -568,7 +588,7 @@ div.maestro:hover p {
     flex-direction: column;
     width: 18%;
     border-radius: 8px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
     padding: 20px;
     background-color: #46b862;
 }
@@ -585,7 +605,7 @@ div.maestro:hover p {
     flex-direction: column;
     width: 18%;
     border-radius: 8px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
     padding: 20px;
     background-color: #f8f8f8;
 }
