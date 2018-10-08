@@ -547,3 +547,60 @@ div.maestro:hover p {
     font-size: 1.5em;
 
 }
+
+/*Herramientas para escritura*/
+/*Global para el padre*/
+.escritura-tools {
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1514474959185-1472d4c4e0d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96bf03736904de12e0e5410c3ed2521b&auto=format&fit=crop&w=667&q=80');
+    box-sizing: border-box;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100) !important;
+}
+/*Para Evernote*/
+.tools-escritura-evernote {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #46b862;
+}
+
+.tools-escritura-evernote img {
+    display: flex;
+    border-radius: 8px;
+}
+
+/*Para Medium*/
+.tools-escritura-medium {
+    display: flex;
+    color: gray;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.titulo-escritura p {
+    display: flex;
+    justify-content: center;
+    margin-top: 80%;
+    align-content: center;
+    margin-right: -330%;
+
+}
+.escritura-fijo {
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    margin: 50%;
+    text-decoration-line: initial;
+}
