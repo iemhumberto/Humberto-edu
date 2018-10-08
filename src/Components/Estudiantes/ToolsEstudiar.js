@@ -13,6 +13,12 @@ const Canva = 'http://www.bestmediainfo.com/wp-content/uploads/2015/10/canva.jpg
 
 const swipe = 'https://i.pinimg.com/originals/a6/7a/d9/a67ad9821f009561f625c669737dec90.jpg';
 
+/*Herramientas para productividad */
+
+const Trello = 'https://png.icons8.com/color/1600/trello.png';
+const Mtodo = 'https://mk0intowindows84fvao.kinstacdn.com/wp-content/uploads/2017/04/delete-Mic' +
+        'rosfot-To-Do-account_thumb.png';
+
 class ToolsEstudiar extends Component {
     render() {
         return (
@@ -101,7 +107,48 @@ class ToolsEstudiar extends Component {
                             <div className="button">Usar herramienta</div>
                         </a>
                     </div>
-                    <div className="title titulo-presentaciones">Para crear presentaciones que impresionen</div>
+                    <div className="title titulo-presentaciones">Para crear presentaciones admirables</div>
+                </section>
+                {/*Herramientas de productividad*/}
+                {/*Trello herramienta*/}
+                <section className="row productividad-tools">
+                    <div className="tools-productividad-trello">
+                        <img className="Trello" src={Trello} alt="Trello. Productividad."/>
+                        <p>Organize su calendario. Tareas. Haga todo estructurado. Fácil.</p>
+                        <a
+                            style={{
+                            'display': 'flex',
+                            'marginTop': '25%',
+                            'justifyContent': 'center'
+                        }}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https:trello.com">
+                            <div className="button">Usar herramienta</div>
+                        </a>
+                    </div>
+                    {/*Microsoft ToDo*/}
+                    <div className="tools-productividad-mtodo">
+                        <img
+                            className="Mtodo"
+                            src={Mtodo}
+                            alt="Microsoft To-do. Herramienta de productividad"/>
+                        <p>Agende y agregue en lista sus labores. Sea organizado.</p>
+                        <a
+                            style={{
+                            'display': 'flex',
+                            'marginTop': '25%',
+                            'justifyContent': 'center'
+                        }}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://todo.microsoft.com/es-es">
+                            <div className="button">Usar herramienta</div>
+                        </a>
+                    </div>
+                    <div className="title titulo-productividad">
+                        <p className="productividad-fijo">Productividad</p>
+                    </div>
                 </section>
             </section>
         );

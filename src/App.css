@@ -483,8 +483,9 @@ div.maestro:hover p {
     display: flex;
     background-image: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     box-sizing: border-box;
-    position: center center;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .titulo-presentaciones {
@@ -493,4 +494,56 @@ div.maestro:hover p {
     margin: auto;
     padding: 10px;
     color: white;
+}
+
+/*Herramientas de productividad*/
+.productividad-tools {
+    display: flex;
+    background-image: url('https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: rgb(100, 100, 100) !important;
+}
+.tools-productividad-mtodo {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 20px 20px 0;
+    padding: 20px;
+    background-color: #287ae9;
+}
+.tools-productividad-mtodo img {
+    display: flex;
+    border-radius: 8px;
+}
+.tools-productividad-trello {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 20px 20px 0;
+    padding: 20px;
+    background-color: #287ae9;
+}
+.tools-productividad-trello img {
+    display: flex;
+    border-radius: 8px;
+}
+.titulo-productividad p {
+    display: flex;
+    margin-top: 60%;
+    margin-left: -130%;
+}
+.productividad-fijo {
+    display: flex;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: #DCDCDC !important;
 }
