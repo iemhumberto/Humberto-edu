@@ -315,12 +315,12 @@ div.maestro p {
     text-align: left;
     color: white;
     text-transform: uppercase;
-    -webkit-transition: all .5s ease-in-out;
-  }
-  div.maestro:hover p {
-      bottom: -80px;
-      opacity: 0;
-  }
+    -webkit-transition: all 0.5s ease-in-out;
+}
+div.maestro:hover p {
+    bottom: -80px;
+    opacity: 0;
+}
 /*Título para elegir jornadas*/
 .titulo-por-jornada {
     display: flex;
@@ -330,7 +330,7 @@ div.maestro p {
 }
 .b-jornadas {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     width: 30%;
     justify-content: space-between;
     margin: auto;
@@ -339,7 +339,7 @@ div.maestro p {
 /*Book de las jornadas*/
 .book-mañana img {
     display: flex;
-    margin: 0 0 0 0;
+    margin: 0;
 }
 .tarjeta-informativa {
     display: flex;
@@ -393,7 +393,104 @@ div.maestro p {
     border-radius: 3px;
     font-weight: 700;
 }
-.space-around p  {
+.space-around p {
     display: flex;
     margin-left: 10px;
+}
+
+/*Tarjetas para visitantes que son padres*/
+.tarjeta-visitantes-padres {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.description-content-parent {
+    display: flex;
+    margin-top: 15px;
+}
+/*Direct-to-web without decoration*/
+.direct-to-web a {
+    display: flex;
+    text-decoration: none !important;
+}
+
+/*Herramientas para estudiantes*/
+
+/*Tools presentaciones*/
+.tools-presentaciones-nuclino {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fa5560;
+}
+.tools-presentaciones-nuclino img {
+    display: flex;
+    border-radius: 8px;
+}
+.tools-presentaciones-prezi {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #4f81c2;
+}
+.tools-presentaciones-gslides {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    background-color: #f9a51a;
+}
+.tools-presentaciones-canva {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    background-color: #00c0cb;
+}
+.tools-presentaciones-canva img {
+    display: flex;
+    border-radius: 8px;
+}
+
+.tools-presentaciones-swipe {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 18%;
+    border-radius: 8px;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    background-color: #ff9e07;
+}
+.presentaciones-back {
+    display: flex;
+    background-image: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    box-sizing: border-box;
+    position: center center;
+    background-size: cover;
+}
+
+.titulo-presentaciones {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    color: white;
 }
