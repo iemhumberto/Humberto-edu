@@ -12,6 +12,10 @@ import AgendaMañana from './Components/Pages/agenda-mañana';
 import AgendaTarde from './Components/Pages/agenda-tarde';
 import Eventos from './Components/Pages/Eventos';
 
+
+/*Eventos que cambiarán constantemente*/
+import HumberBici from './Components/Pages/Components/Humber-bici';
+
 import {Switch, Route} from 'react-router-dom';
 
 class Router extends Component {
@@ -27,6 +31,7 @@ class Router extends Component {
                     <Route exact path="/agenda-mañana" component={AgendaMañana}></Route>
                     <Route exact path="/agenda-tarde" component={AgendaTarde}></Route>
                     <Route exact path="/eventos" component={Eventos}></Route>
+                    <Route exact path="/humber-ruedas" component={HumberBici}></Route>
                     <Route component={NotFound}></Route>
                 </Switch>
             </div>
