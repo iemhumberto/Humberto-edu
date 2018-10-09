@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 const Medal = 'https://res.cloudinary.com/cristiansam/image/upload/v1538926584/Docentes-insigni' +
         'a-Humberto-Munoz.svg';
@@ -37,6 +38,9 @@ class DocInsignia extends Component {
                             <p>Carlos Gómez</p>
                         </div>
                     </ul>
+                    <Link to="/docentes-insignia">
+                        <div className="button is-active boton-ir-doc-insignia">Conoce más</div>
+                    </Link>
                 </div>
             </section >
         );

@@ -298,6 +298,13 @@ html {
     margin: auto;
     justify-content: center;
 }
+.boton-ir-doc-insignia {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px  auto;
+    width: 50%;
+
+}
 .Docentes-insignia {
     display: flex;
     justify-content: center;

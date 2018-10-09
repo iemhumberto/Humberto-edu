@@ -20,7 +20,7 @@ export const JorInfo = () => (
                     style={{
                     'fontSize': '20px'
                 }}
-                    className="button is-danger">Jornada Tarde</div>
+                    className="button is-primary">Jornada Tarde</div>
             </Link>
         </div>
     </section>
