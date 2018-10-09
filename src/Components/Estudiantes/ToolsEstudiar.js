@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+/*Intro de la sección */
+const EntIntro = 'https://res.cloudinary.com/cristiansam/image/upload/v1539042304/Humberto-ui/secc' +
+        'i%C3%B3n-estudiantes-herramientas-Humberto-Munoz-Ordonez.svg';
 /*Herramientas para presentaciones*/
 const nuclino = 'https://d33wubrfki0l68.cloudfront.net/0d5f11ddd1bebaa00cac1831eb892e623c3a39bb/2' +
         '090d/img/press/nuclino_logo_preview.png';
@@ -28,6 +31,40 @@ class ToolsEstudiar extends Component {
     render() {
         return (
             <section>
+                <section className="row">
+                    <div className="intro-image-estudiantes-tools">
+                        <img src={EntIntro} alt="Imagen de introducción"/>
+                        <div className="card tarjeta-entorno-herramientas">
+                            <div className="card-header">
+                                <div className="card-header-title">
+                                    <p>Herramientas para estudiar ágilmente</p>
+                                </div>
+                            </div>
+                            <div className="card-content">
+                                <div className="content">
+                                    <p>
+                                        <strong>Mejores presentaciones</strong>
+                                    </p>
+                                    Lograr que nuestros estudiantes implementen herramientas de calidad para sus
+                                    tareas y trabajos.
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        <strong>Productividad</strong>
+                                    </p>
+                                    Dar orden y proyectar agendas. Aprovechamiento del tiempo libre.
+                                </div>
+                                <div className="content">
+                                    <p>
+                                        <strong>Escritura</strong>
+                                    </p>
+                                    Crear contenido de calidad. Anotar ideas. Crear mundos. Aquí tienes libretas
+                                    para tu brainstorming.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section
                     style={{
                     'marginTop': '5%'
@@ -176,10 +213,7 @@ class ToolsEstudiar extends Component {
                     </div>
                     {/*Medium post*/}
                     <div className="tools-escritura-medium">
-                        <img
-                            className="Medium"
-                            src={Medium}
-                            alt="Medium. Publica tu conocimiento."/>
+                        <img className="Medium" src={Medium} alt="Medium. Publica tu conocimiento."/>
                         <p>Agende y agregue en lista sus labores. Sea organizado.</p>
                         <a
                             style={{
