@@ -857,14 +857,14 @@ hr {
 }
 
 /*Fútbol. Evento intramural*/
-.blog-card.spring-fever-football{
+.blog-card.spring-fever-football {
     background: url('https://images.pexels.com/photos/274385/pexels-photo-274385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
 }
-.blog-card.spring-fever-expo{
+.blog-card.spring-fever-expo {
     background: url('https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat;
     background-size: cover;
     background-position: center;
