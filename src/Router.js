@@ -12,9 +12,10 @@ import AgendaMañana from './Components/Pages/agenda-mañana';
 import AgendaTarde from './Components/Pages/agenda-tarde';
 import Eventos from './Components/Pages/Eventos';
 
-
 /*Eventos que cambiarán constantemente*/
 import HumberBici from './Components/Pages/Components/Humber-bici';
+import CampeonatoIntramural from './Components/Pages/Components/Campeonato-intramural';
+import ExpoDay from './Components/Pages/Components/Expo-Day';
 
 import {Switch, Route} from 'react-router-dom';
 
@@ -32,6 +33,8 @@ class Router extends Component {
                     <Route exact path="/agenda-tarde" component={AgendaTarde}></Route>
                     <Route exact path="/eventos" component={Eventos}></Route>
                     <Route exact path="/humber-ruedas" component={HumberBici}></Route>
+                    <Route exact path="/campeonato-intramural" component={CampeonatoIntramural}></Route>
+                    <Route exact path="/expo-day" component={ExpoDay}></Route>
                     <Route component={NotFound}></Route>
                 </Switch>
             </div>
