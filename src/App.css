@@ -32,6 +32,27 @@ html {
     margin-top: 10px;
     border-radius: 5px;
 }
+/*Cards Inicio*/
+/*Deporte*/
+.cardDeporte {
+    display: flex;
+    background-image: url('https://res.cloudinary.com/cristiansam/image/upload/v1539206885/Talento-Humberto-Munoz-Ordonez.gif');
+    width: 300px;
+}
+.cardIntelecto {
+    display: flex;
+    background-image: url('https://res.cloudinary.com/cristiansam/image/upload/v1539206932/Intelecto-Humberto-Munoz-Ordonez.webp');
+    width: 300px;
+}
+.cardInfraestructura {
+    display: flex;
+    background-image: url('https://res.cloudinary.com/cristiansam/image/upload/v1539206969/Infraestructura-Humberto-Munoz-Ordonez.gif');
+    width: 300px;
+}
+.cardTalento {
+    display: flex;
+    background-image: url('https://res.cloudinary.com/cristiansam/image/upload/v1539206995/Habilidades-Humberto-Munoz-Ordonez.gif');
+}
 /*INTRO PRINCIPAL*/
 .intro-image {
     display: flex;
@@ -964,7 +985,7 @@ hr {
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.tarjeta-contenido-autor  img {
+.tarjeta-contenido-autor img {
     border-radius: 3px;
 }
 /*Imágen role contenido*/
@@ -973,7 +994,7 @@ hr {
     width: 180px;
     height: 130px;
     border-radius: 8px;
-    margin: auto auto 10px auto;
+    margin: auto auto 10px;
     justify-content: center;
     align-self: center;
 

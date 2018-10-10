@@ -42,7 +42,7 @@ class CampeonatoIntramural extends Component {
                             'fontSize': '1.3em',
                             'fontWeight': 'bold'
                         }}
-                            className="tag is-warning">17 Octubre</span>
+                            className="tag is-warning">17 Octubre - 7:50 AM</span>
                     </div>
                 </section>
                 <section>
@@ -82,14 +82,16 @@ class CampeonatoIntramural extends Component {
                         </div>
                         <div className="card-content">
                             <div className="content contenido-tarjeta-eventos">
-                                <ul>
-                                    <li>
-                                        Premiación Trofeo.
-                                    </li>
+                                <ol>
                                     <li>
                                         Primer y segundo puesto goleador.
                                     </li>
-                                </ul>
+                                    <ul>
+                                        <li>
+                                            Premiación Trofeo.
+                                        </li>
+                                    </ul>
+                                </ol>
                             </div>
                         </div>
                     </div>
