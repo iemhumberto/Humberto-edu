@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+/*Import de habilidades y reconocimientos */
+import Gradients from '../Components/Inicio-cards-gradients/Gradients';
 const EstEnv = 'https://res.cloudinary.com/cristiansam/image/upload/v1538848740/Entorno-estudiar' +
         '-Humberto-Mu%C3%B1oz.svg';
 const InfraEst = 'https://res.cloudinary.com/cristiansam/image/upload/v1538861147/Infraestructura-' +
@@ -11,10 +13,12 @@ const DeparTalentos = 'https://res.cloudinary.com/cristiansam/image/upload/v1538
 const UbiHumb = 'https://res.cloudinary.com/cristiansam/image/upload/v1538922160/Ubicacion-Humber' +
         'to-Munoz-Instituto.svg';
 const DireInst = 'https://goo.gl/maps/kxjR7jVPgds';
+
 class HomeBelow extends Component {
     render() {
         return (
             <section>
+                <Gradients/>
                 <div className="row color-doc">
                     <img className="imagen-entorno-doc" src={EstEnv} alt="Entorno de estudio"/>
                     <div className="entorno-doc tile is-parent">
@@ -83,8 +87,8 @@ class HomeBelow extends Component {
                                 <p className="title">Ubicación de la Institución</p>
                                 <p className="subtitle">Dirección vía Google Maps.</p>
                                 <div className="content">
-                                    <p>Ubique fácilmente las instalaciones de la Institución y visítenos.
-                                        Estamos constantemente abiertos para recibir novedades.
+                                    <p>Ubique fácilmente las instalaciones de la Institución y visítenos. Estamos
+                                        constantemente abiertos para recibir novedades.
                                     </p>
                                     <a href={DireInst} className="button is-info is-inverted">Ver mapa</a>
                                 </div>
