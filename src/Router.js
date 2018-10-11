@@ -13,7 +13,7 @@ import AgendaTarde from './Components/Pages/agenda-tarde';
 import Eventos from './Components/Pages/Eventos';
 import MiColegio from './Components/Pages/Mi-colegio';
 import Simbolos from './Components/Pages/Simbolos';
-import Talento from './Components/Pages/Talento';
+import Talentos from './Components/Pages/Talentos';
 
 /*Eventos que cambiarán constantemente*/
 import HumberBici from './Components/Pages/Components/Humber-bici';
@@ -39,7 +39,7 @@ class Router extends Component {
                     <Route exact path="/campeonato-intramural" component={CampeonatoIntramural}></Route>
                     <Route exact path="/mi-colegio" component={MiColegio}></Route>
                     <Route exact path="/simbolos" component={Simbolos}></Route>
-                    <Route exact path="/talento" component={Talento}></Route>
+                    <Route exact path="/talentos" component={Talentos}></Route>
                     <Route exact path="/expo-day" component={ExpoDay}></Route>
                     <Route component={NotFound}></Route>
                 </Switch>

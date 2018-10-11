@@ -4,7 +4,7 @@ class Simbolos extends Component {
     render() {
         return (
             <section>
-                <div></div>
+                <div>¡Ésta es la página de Símbolos de la Institución!</div>
             </section>
         );
     }

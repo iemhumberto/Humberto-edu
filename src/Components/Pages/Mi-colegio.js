@@ -4,7 +4,7 @@ class MiColegio extends Component {
     render() {
         return (
             <section>
-                <div></div>
+                <div>¡Ésta es la página de mi Colegio!</div>
             </section>
         );
     }
