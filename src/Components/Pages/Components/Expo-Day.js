@@ -30,7 +30,7 @@ class ExpoDay extends Component {
                                                     style={{
                                                     'marginTop': '10px'
                                                 }}className="title is-4">Cristian Samboni</p>
-                                                <p className="subtitle is-6">@Crisam_JS</p>
+                                                <p className="subtitle is-6">@Cris_SamJS</p>
                                             </div>
                                         </div>
                                         <div className="content">
