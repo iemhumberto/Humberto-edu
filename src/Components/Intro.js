@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
+const MovilVersion = 'http://m.humberto-edu.surge.sh';
+
 class Intro extends Component {
     render() {
         return (
@@ -13,20 +15,20 @@ class Intro extends Component {
                             'fontSize': '1.3em'
                         }}>Por favor seleccione su dispositivo en cuestión para continuar:</p>
                         <div className="b-elegir-dispositivo container has-text-centered">
-                            <Link to="/movil">
+                            <a href={MovilVersion}>
                                 <div
                                     style={{
                                     'fontSize': '1.3em',
-                                    'margin':'10% 0 10% 0',
-                                    'textDecoration':'none'
+                                    'margin': '10% 0 10% 0',
+                                    'textDecoration': 'none'
                                 }}
                                     className="button is-info">Dispositivo Móvil</div>
-                            </Link>
+                            </a>
                             <Link to="/inicio">
                                 <div
                                     style={{
                                     'fontSize': '1.3em',
-                                    'textDecoration':'none'
+                                    'textDecoration': 'none'
                                 }}
                                     className="button is-primary">Computador PC</div>
                             </Link>
