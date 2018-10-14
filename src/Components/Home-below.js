@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+
+/*Elementos del UI*/
+import Partners from './Partners/Partners';
 /*Import de habilidades y reconocimientos */
 import Gradients from '../Components/Inicio-cards-gradients/Gradients';
 const EstEnv = 'https://res.cloudinary.com/cristiansam/image/upload/v1538848740/Entorno-estudiar' +
@@ -95,6 +98,9 @@ class HomeBelow extends Component {
                             </div>
                         </div>
                     </div>
+                </section>
+                <section>
+                    <Partners/>
                 </section>
             </section>
         );
