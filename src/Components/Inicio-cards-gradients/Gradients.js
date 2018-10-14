@@ -50,6 +50,9 @@ class Gradients extends Component {
                         <a href={DireInstMap}>
                             <div className="button is-primary buttons-centered-shortcuts">Ubicación del colegio</div>
                         </a>
+                        <Link to="/eventos">
+                            <div className="button is-danger buttons-centered-shortcuts">Eventos</div>
+                        </Link>
                     </div>
                 </section>
             </section>

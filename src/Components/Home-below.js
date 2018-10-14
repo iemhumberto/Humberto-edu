@@ -29,10 +29,8 @@ class HomeBelow extends Component {
                             <p className="title">Docentes de vida</p>
                             <p className="subtitle">Para una mejor educación</p>
                             <div className="content">
-                                <p>Trabajamos para con la construcción de una educación en busca de
-                                    <strong>personas</strong>
-                                    que construyan el futuro de la
-                                    <strong>sociedad para bien.</strong>
+                                <p>Trabajamos para con la construcción de una educación en busca de personas que
+                                    construyan el futuro de la sociedad para bien.
                                 </p>
                                 <Link to="/docentes" className="button is-info is-inverted">Ver docentes</Link>
                             </div>
