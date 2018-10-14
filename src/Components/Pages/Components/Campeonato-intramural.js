@@ -26,7 +26,7 @@ class CampeonatoIntramural extends Component {
                             'fontSize': '1.3em',
                             'fontWeight': 'bold'
                         }}
-                            className="tag is-warning">$1.0xx0 por equipo participante</span>
+                            className="tag is-warning">$15.000 COP por equipo participante</span>
                     </div>
                 </section>
                 {/*Fecha*/}
