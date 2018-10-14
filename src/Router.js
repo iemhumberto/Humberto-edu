@@ -14,6 +14,7 @@ import Eventos from './Components/Pages/Eventos';
 import MiColegio from './Components/Pages/Mi-colegio';
 import Simbolos from './Components/Pages/Simbolos';
 import Talentos from './Components/Pages/Talentos';
+import PaginasAmigas from './Components/Pages/Paginas-amigas';
 
 /*Eventos que cambiarán constantemente*/
 import HumberBici from './Components/Pages/Components/Humber-bici';
@@ -37,6 +38,7 @@ class Router extends Component {
                     <Route exact path="/eventos" component={Eventos}></Route>
                     <Route exact path="/humber-ruedas" component={HumberBici}></Route>
                     <Route exact path="/campeonato-intramural" component={CampeonatoIntramural}></Route>
+                    <Route exact path="/paginas-amigas" component={PaginasAmigas}></Route>
                     <Route exact path="/mi-colegio" component={MiColegio}></Route>
                     <Route exact path="/simbolos" component={Simbolos}></Route>
                     <Route exact path="/talentos" component={Talentos}></Route>
