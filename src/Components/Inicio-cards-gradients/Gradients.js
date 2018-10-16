@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
-/*Import de images-beneficio para las cards gradients */
-const DireInstMap = 'https://goo.gl/maps/kxjR7jVPgds';
-const VerGrades = 'https://syseduca.com/asociados/login';
+// /*Import de images-beneficio para las cards gradients */
+// const DireInstMap = 'https://goo.gl/maps/kxjR7jVPgds';
+// const VerGrades = 'https://syseduca.com/asociados/login';
 
 class Gradients extends Component {
     render() {
@@ -23,7 +23,7 @@ class Gradients extends Component {
                     <div className="cardInfraestructura"></div>
                     <div className="cardTalento"></div>
                 </section>
-                <section className="column">
+                {/* <section className="column">
                     <article className="message is-info message-space">
                         <div className="message-body">
                             <strong>
@@ -31,7 +31,7 @@ class Gradients extends Component {
                             </strong>
                         </div>
                     </article>
-                    <div className="buttons-centered-shortcuts">
+                    {/* <div className="buttons-centered-shortcuts">
                         <Link to="/mi-colegio">
                             <div className="button is-info buttons-centered-shortcuts">Mi Colegio</div>
                         </Link>
@@ -53,8 +53,8 @@ class Gradients extends Component {
                         <Link to="/eventos">
                             <div className="button is-danger buttons-centered-shortcuts">Eventos</div>
                         </Link>
-                    </div>
-                </section>
+                    </div> */}
+                {/* </section> */}
             </section>
         );
     }

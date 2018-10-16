@@ -5,6 +5,7 @@ import '../App.css';
 import HomeBelow from './Home-below';
 import Footer from '../Components/Footer';
 import Banner from '../Components/Banner';
+import NavBar from '../Components/NavBar';
 
 /*Enrutado con Link desde react-router-dom */
 import {Link} from 'react-router-dom';
@@ -21,6 +22,10 @@ const visProfile = 'http://res.cloudinary.com/cristiansam/image/upload/v15370390
 class Home extends Component {
     render() {
         return (
+            <section>
+            <div className="row">
+            <NavBar/>
+            </div>
             <div className="div-master">
                 <section className="hero is-success is-fullheight header-principal">
                     <div className="hero-body">
@@ -88,6 +93,7 @@ class Home extends Component {
                     <Footer/>
                 </section>
             </div>
+            </section>
         );
     }
 }
