@@ -5,7 +5,7 @@ class Banner extends Component {
     render() {
         return (
             <div className="row">
-                <div className="social-media">
+                <div style={{'margin':'50px', 'borderRadius':'8px'}} className="social-media">
                     <div className="follow">
                         <p>Comunidad Humbertista en redes Sociales.</p>
                     </div>

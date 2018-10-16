@@ -29,7 +29,7 @@ class Home extends Component {
                                 <p>IEM</p>
                             </h1>
                             <h2 className="sub-institute">Humberto Muñoz Ordoñez</h2>
-                            <h2 className="subtitle descp-obj">"Conectando intelecto y medios digitales"</h2>
+                            <h2 className="subtitle descp-obj">"Aprender a aprender y Triunfar"</h2>
                         </div>
                         {/*Primer card*/}
                         <div className="card-master">
@@ -82,9 +82,9 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <Banner/>
                 <section>
                     <HomeBelow/>
+                    <Banner/>
                     <Footer/>
                 </section>
             </div>
