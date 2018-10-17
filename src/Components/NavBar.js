@@ -12,7 +12,7 @@ class NavBar extends Component {
             <div style={{'display':'flex','flexWrap':'wrap', 'justifyContent':'center', 'margin':'auto'}}  className="navbar">
             <div className="buttons-centered-shortcuts">
                         <Link to="/mi-colegio">
-                            <div className="button is-info buttons-centered-shortcuts">Mi Colegio</div>
+                            <div className="button is-info buttons-centered-shortcuts">Mi Institución</div>
                         </Link>
                         <a href={VerGrades}>
                             <div className="button is-primary buttons-centered-shortcuts">Ver notas</div>

@@ -28,10 +28,9 @@ export default {
             link: 'http://superate.edu.co/'
         }, {
             id: 6,
-            name: 'Banco BBVA',
-            imageUrl: 'https://vignette.wikia.nocookie.net/carrington/images/6/69/BBVA_logo.png/revisio' +
-                    'n/latest?cb=20131228191748',
-            link: 'https://www.bbva.com.co/'
+            name: 'Nómina. Sistema humano.',
+            imageUrl: 'https://servicefutures.com/wp-content/uploads/2018/02/What-does-it-take-to-make-FM-and-HR-collaborate.png',
+            link: 'http://rrhh.gestionsecretariasdeeducacion.gov.co:2383/humanoEL/Ingresar.aspx'
         }
     ]
 }

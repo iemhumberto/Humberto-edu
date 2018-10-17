@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import DocInsignia from '../../Components/Docentes/DocInsignia';
 import Footer from '../../Components/Footer';
+import PagesAmi from '../../Components/Docentes/Components/PagesAmi';
 
 class Docentes extends Component {
     render() {
@@ -21,10 +22,9 @@ class Docentes extends Component {
                         <h3 className="title is-3 doc-titulo-principal">Instruyendo profesionales</h3>
                     </div>
                 </section>
-                <section>
-                    <DocInsignia/>
-                    <Footer/>
-                </section>
+                <PagesAmi/>
+                <DocInsignia/>
+                <Footer/>
             </div>
         );
     }

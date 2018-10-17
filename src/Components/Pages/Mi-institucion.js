@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class MiColegio extends Component {
+class MiInstitucion extends Component {
     render() {
         return (
             <section>
-                <div>¡Ésta es la página de mi Colegio!</div>
+                <div>¡Ésta es la página de mi Institucion!</div>
             </section>
         );
     }
 }
 
-export default MiColegio;
+export default MiInstitucion;
