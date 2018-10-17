@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom';
 /*Elementos del UI*/
 import Partners from './Partners/Partners';
 /*Import de habilidades y reconocimientos */
+import MisionVision from '../Components/VisionMision';
+
 import Gradients from '../Components/Inicio-cards-gradients/Gradients';
 const EstEnv = 'https://res.cloudinary.com/cristiansam/image/upload/v1538848740/Entorno-estudiar' +
         '-Humberto-Mu%C3%B1oz.svg';
@@ -22,6 +24,7 @@ class HomeBelow extends Component {
         return (
             <section>
                 <Gradients/>
+                <MisionVision/>
                 <div className="row color-doc">
                     <img className="imagen-entorno-doc" src={EstEnv} alt="Entorno de estudio"/>
                     <div className="entorno-doc tile is-parent">
