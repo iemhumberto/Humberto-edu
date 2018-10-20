@@ -20,7 +20,7 @@ class DocInsignia extends Component {
                 </div>
                 <div className="insignia-description">
                     <h3>
-                        <strong>Docentes insignia del año</strong>
+                        <strong>Docentes destacados</strong>
                     </h3>
                 </div>
                 <div>
