@@ -3,6 +3,9 @@ import DocInsignia from '../../Components/Docentes/DocInsignia';
 import Footer from '../../Components/Footer';
 import PagesAmi from '../../Components/Docentes/Components/PagesAmi';
 
+/*Imports de documentos necesarios para docentes */
+import HorarioDoc from '../Docentes/Components/HorarioDoc';
+
 class Docentes extends Component {
     render() {
         return (
@@ -23,6 +26,7 @@ class Docentes extends Component {
                     </div>
                 </section>
                 <PagesAmi/>
+                <HorarioDoc/>
                 <DocInsignia/>
                 <Footer/>
             </div>

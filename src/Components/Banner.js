@@ -1,33 +1,55 @@
 import React, {Component} from 'react';
-import '../App.scss';
+import '../Styles/SChannels.scss';
 
 class Banner extends Component {
     render() {
         return (
-            <div className="row">
-                <div style={{'margin':'50px', 'borderRadius':'8px'}} className="social-media">
-                    <div className="follow">
-                        <p>Comunidad Humbertista en redes Sociales.</p>
-                    </div>
-                    <a href="https://instagram.com">
-                        <i className="fab fa-instagram icons"></i>
-                    </a>
-                    <a href="https://facebook.com">
-                        <i className="fab fa-facebook-f icons"></i>
-                    </a>
-                    <a href="https://twitter.com">
-                        <i className="fab fa-twitter-square icons"></i>
-                    </a>
-                    <a href="https://youtube.com">
-                        <i className="fab fa-youtube icons"></i>
-                    </a>
-                    <div className="link-col">
-                        <a href="https://unsplash.com">Galería fotográfica
-                            <i className="fas fa-images"></i>
-                        </a>
-                    </div>
-                </div>
+            <section className="social-content" style={{'display':'flex', 'margin':'20px', 'backgroundColor':'black', 'padding':'10px'}}>
+            <div className="container content has-text-centered">
+            <div style={{'color':'white'}} className="title">Comunidad Humbertista</div>
+            <div  style={{'color':'white'}} className="subtitle">en redes sociales</div>
             </div>
+            <div className="socialIcons">
+            <ul>
+                <li>
+                    <a href="https://facebook.com">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-facebook" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-twitter" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-instagram" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span className="fab fa-youtube"></span>
+                    </a>
+                </li>
+            </ul>
+            </div>
+            </section>
         );
     }
 }

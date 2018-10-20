@@ -10,7 +10,7 @@ class Gradients extends Component {
         return (
             <section>
                 <div className="row title contenido-titulo">
-                    Nos indentifica...</div>
+                    Nos identifica...</div>
                 <section
                     style={{
                     'display': 'flex',

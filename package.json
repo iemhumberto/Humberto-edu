@@ -6,8 +6,10 @@
     "create-react-app": "^2.0.4",
     "google-maps-react": "^2.0.2",
     "node-sass": "^4.9.4",
+    "pdfjs-dist": "^2.0.489",
     "react": "^16.5.2",
     "react-dom": "^16.5.1",
+    "react-pdf": "^3.0.5",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.0.5"
   },

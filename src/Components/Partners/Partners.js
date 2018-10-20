@@ -55,15 +55,16 @@ class Partners extends Component {
         return (
             <section>
                 <section className="column">
-                    <div className="title content has-text-centered">Nuestros Partners</div>
-                    <div className="subtitle content has-text-centered">Colaboradores en la construcción de una plataforma para una mejor Educación.</div>
+                    <div className="title content has-text-centered">Nuestros Colaboradores</div>
+                    <div className="subtitle content has-text-centered">En la construcción de una plataforma para una mejor <strong>Educación.</strong></div>
                 </section>
                 <section
                     style={{
                     'display': 'flex',
                     'justifyContent': 'center',
                     'margin': '10px 10px',
-                    'alignSelf': 'center'
+                    'alignSelf': 'center',
+                    'marginBottom':'20px'
                 }}
                     className="row is-desktop">
                     {this.Partners()}</section>

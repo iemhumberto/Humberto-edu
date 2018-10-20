@@ -29,13 +29,13 @@ class HomeBelow extends Component {
                     <img className="imagen-entorno-doc" src={EstEnv} alt="Entorno de estudio"/>
                     <div className="entorno-doc tile is-parent">
                         <div className="tile is-child notification is-info">
-                            <p className="title">Docentes de vida</p>
+                            <p className="title">Docentes Innovadores</p>
                             <p className="subtitle">Para una mejor educación</p>
                             <div className="content">
-                                <p>Trabajamos para con la construcción de una educación en busca de personas que
+                                <p>Trabajamos para con la construcción de proyectos para una educación en busca de personas que
                                     construyan el futuro de la sociedad para bien.
                                 </p>
-                                <Link to="/docentes" className="button is-info is-inverted">Ver docentes</Link>
+                                <Link to="/docentes-innovadores" className="button is-info is-inverted">Ver proyectos</Link>
                             </div>
                         </div>
                     </div>
