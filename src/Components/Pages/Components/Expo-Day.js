@@ -43,10 +43,10 @@ class ExpoDay extends Component {
                                                 'padding': '5px',
                                                 'borderRadius': '5px'
                                             }}>
-                                                <a
+                                                <p
                                                     style={{
                                                     'color': 'white'
-                                                }}>Front-end Developer with React.JS</a>
+                                                }}>Front-end Developer with React.JS</p>
                                             </p>
                                         </div>
                                     </div>

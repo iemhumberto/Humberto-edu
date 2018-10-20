@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PadreFamilia from '../../Components/Visitantes/PadreFamilia';
 import Footer from '../../Components/Footer';
+import Gallery from '../Socials/Gallery';
 
 class Visitantes extends Component {
     render() {
@@ -11,7 +12,7 @@ class Visitantes extends Component {
                         <div className="container">
                             <h1 className="title doc-title">Saludos, Visitante.</h1>
                             <h2 className="subtitle doc-subtitle">Conoce nuestra grandiosa
-                                <strong>
+                                <strong><br></br>
                                     comunidad</strong>
                             </h2>
                         </div>
@@ -20,6 +21,7 @@ class Visitantes extends Component {
                 <section>
                     <PadreFamilia/>
                 </section>
+                <Gallery className="gallery-container"/>
                 <Footer/>
             </section>
         );

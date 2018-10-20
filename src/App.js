@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import NotFound from './pages/NotFound';
 
 /*Elementos de UI credos*/

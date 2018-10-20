@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import '../App.css';
+import '../App.scss';
 
 /*Import de images-beneficio para las cards gradients */
 const DireInstMap = 'https://goo.gl/maps/kxjR7jVPgds';
@@ -18,7 +18,7 @@ class NavBar extends Component {
                             <div className="button is-primary buttons-centered-shortcuts">Ver notas</div>
                         </a>
                         <Link to="/docentes">
-                            <div className="button is-danger buttons-centered-shortcuts">Docentes</div>
+                            <div className="button is-danger buttons-centered-shortcuts">Mi profe</div>
                         </Link>
                         <Link to="/simbolos">
                             <div className="button is-warning buttons-centered-shortcuts">Símbolos</div>

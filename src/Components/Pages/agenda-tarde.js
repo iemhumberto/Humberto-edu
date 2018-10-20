@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Footer from '../../Components/Footer';
-import '../../App.css';
+import '../../App.scss';
 
 /*Import del board data de jornada tarde*/
 import BoardTarde from '../../Components/data/Board-tarde';

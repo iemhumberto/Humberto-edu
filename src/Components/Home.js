@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../App.css';
+import '../App.scss';
 
 /*Imports de elementos del layout */
 import HomeBelow from './Home-below';
@@ -45,7 +45,7 @@ class Home extends Component {
                                     </div>
                                     <div className="card-content">
                                         <div className="content">
-                                            <p>Contenidos para la comunidad de maestros. Manténgase actualizado.</p>
+                                            <p>Contenidos para la comunidad de maestros. Manténgase actualizado con las novedades.</p>
                                             <Link to="/docentes" className="button is-normal">Ir ahora</Link>
                                             <img className="img-profile-home" src={docProfile} alt="Perfil docente"/>
                                         </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../App.css';
+import '../../App.scss';
 import {Link} from 'react-router-dom';
 
 const PadreFlia = 'https://res.cloudinary.com/cristiansam/image/upload/v1538949609/Humberto-ui/Padr' +

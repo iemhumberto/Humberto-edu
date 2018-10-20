@@ -1,6 +1,6 @@
 import React from 'react';
 import {ButtonBackToHome} from '../../Components/ButtonBackToHome';
-import '../../App.css';
+import '../../App.scss';
 
 const NoFdImage = 'https://res.cloudinary.com/cristiansam/image/upload/v1538925162/No-encontrado-Hu' +
         'mberto-Munoz-Ordonez.svg';
