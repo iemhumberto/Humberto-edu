@@ -7,8 +7,6 @@ const ScrollDown = () => {
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
-            <span></span>
         </div>
     );
 }
