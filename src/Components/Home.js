@@ -6,6 +6,7 @@ import HomeBelow from './Home-below';
 import Footer from '../Components/Footer';
 import Banner from '../Components/Banner';
 import NavBar from '../Components/NavBar';
+import ScrollDown from './ScrollDown';
 
 /*Enrutado con Link desde react-router-dom */
 import {Link} from 'react-router-dom';
@@ -87,6 +88,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </section>
+                <ScrollDown/>
                 <section>
                     <HomeBelow/>
                     <Banner/>

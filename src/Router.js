@@ -8,8 +8,6 @@ import Estudiantes from './Components/Pages/Estudiantes';
 import Visitantes from './Components/Pages/Visitantes';
 import {NotFound} from './Components/Pages/NotFound';
 import Home from './Components/Home';
-import AgendaMañana from './Components/Pages/agenda-mañana';
-import AgendaTarde from './Components/Pages/agenda-tarde';
 import Eventos from './Components/Pages/Eventos';
 import MiInstitucion from './Components/Pages/Mi-institucion';
 import Simbolos from './Components/Pages/Simbolos';
@@ -33,8 +31,6 @@ class Router extends Component {
                     <Route exact path="/docentes" component={Docentes}></Route>
                     <Route exact path="/estudiantes" component={Estudiantes}></Route>
                     <Route exact path="/visitantes" component={Visitantes}></Route>
-                    <Route exact path="/agenda-mañana" component={AgendaMañana}></Route>
-                    <Route exact path="/agenda-tarde" component={AgendaTarde}></Route>
                     <Route exact path="/eventos" component={Eventos}></Route>
                     <Route exact path="/humber-ruedas" component={HumberBici}></Route>
                     <Route exact path="/campeonato-intramural" component={CampeonatoIntramural}></Route>

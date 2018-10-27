@@ -1,5 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
+const JorTarde = 'https://trello.com/b/bNaFSIMW/';
+const JorMañana = 'https://trello.com/b/4pVhgD3b/';
 export const JorInfo = () => (
     <section>
         <div>
@@ -8,20 +10,20 @@ export const JorInfo = () => (
         <div style={{
             'marginTop': '20px'
         }} className="b-jornadas">
-            <Link to="/agenda-mañana">
+            <a href={JorMañana}>
                 <div
                     style={{
                     'fontSize': '20px'
                 }}
                     className="button is-info">Jornada Mañana</div>
-            </Link>
-            <Link to="/agenda-tarde">
+            </a>
+            <a href={JorTarde}>
                 <div
                     style={{
                     'fontSize': '20px'
                 }}
                     className="button is-primary">Jornada Tarde</div>
-            </Link>
+            </a>
         </div>
     </section>
 )
