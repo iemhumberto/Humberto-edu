@@ -24,77 +24,78 @@ class Home extends Component {
     render() {
         return (
             <section>
-            <div className="row">
-            <NavBar/>
-            </div>
-            <div className="div-master">
-                <section className="hero is-success is-fullheight header-principal">
-                    <div className="hero-body">
-                        <div className="container">
-                            <h1 className="title iem">
-                                <p>IEM</p>
-                            </h1>
-                            <h2 className="sub-institute">Humberto Muñoz Ordoñez</h2>
-                            <h2 className="subtitle descp-obj">"Aprender a aprender y Triunfar"</h2>
+                <div className="row">
+                    <NavBar/>
+                </div>
+                <div className="div-master">
+                    <section className="hero is-success is-fullheight header-principal">
+                        <div className="hero-body">
+                            <div className="container">
+                                <h1 className="title iem">
+                                    <p>IEM</p>
+                                </h1>
+                                <h2 className="sub-institute">Humberto Muñoz Ordoñez</h2>
+                                <h2 className="subtitle descp-obj">"Aprender a aprender y triunfar"</h2>
+                            </div>
+                            {/*Primer card*/}
+                            <div className="card-master">
+                                <div className="card roles">
+                                    <div className="card-header">
+                                        <div className="card-header-title">
+                                            <p className="item-background-doc">Docentes</p>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="content">
+                                                <p>Contenidos para la comunidad de maestros. Manténgase actualizado con las
+                                                    novedades.</p>
+                                                <Link to="/docentes" className="button is-normal">Ir ahora</Link>
+                                                <img className="img-profile-home" src={docProfile} alt="Perfil docente"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/*Segundo card*/}
+                                <div className="card roles">
+                                    <div className="card-header">
+                                        <div className="card-header-title">
+                                            <p className="item-background-est">Estudiantes</p>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="content">
+                                                <p>Eventos, actividades, programación semanal para nuestros estudiantes.</p>
+                                                <Link to="/estudiantes" className="button is-normal">Ir ahora</Link>
+                                                <img className="img-profile-home" src={estProfile} alt="Perfil docente"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/*Finaliza card en cuestión*/}
+                                {/*Tercer card*/}
+                                <div className="card roles">
+                                    <div className="card-header">
+                                        <div className="card-header-title">
+                                            <p className="item-background-vis">Visitantes</p>
+                                        </div>
+                                        <div className="card-content">
+                                            <div className="content">
+                                                <p>Conozca, aprenda y contribuya con la comunidad estudiantil interconectada.</p>
+                                                <Link to="/visitantes" className="button is-normal">Ir ahora</Link>
+                                                <img className="img-profile-home" src={visProfile} alt="Perfil visitante"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/*Finaliza card en cuestión*/}
+                            </div>
                         </div>
-                        {/*Primer card*/}
-                        <div className="card-master">
-                            <div className="card roles">
-                                <div className="card-header">
-                                    <div className="card-header-title">
-                                        <p className="item-background-doc">Docentes</p>
-                                    </div>
-                                    <div className="card-content">
-                                        <div className="content">
-                                            <p>Contenidos para la comunidad de maestros. Manténgase actualizado con las novedades.</p>
-                                            <Link to="/docentes" className="button is-normal">Ir ahora</Link>
-                                            <img className="img-profile-home" src={docProfile} alt="Perfil docente"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/*Segundo card*/}
-                            <div className="card roles">
-                                <div className="card-header">
-                                    <div className="card-header-title">
-                                        <p className="item-background-est">Estudiantes</p>
-                                    </div>
-                                    <div className="card-content">
-                                        <div className="content">
-                                            <p>Eventos, actividades, programación semanal para nuestros estudiantes.</p>
-                                            <Link to="/estudiantes" className="button is-normal">Ir ahora</Link>
-                                            <img className="img-profile-home" src={estProfile} alt="Perfil docente"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/*Finaliza card en cuestión*/}
-                            {/*Tercer card*/}
-                            <div className="card roles">
-                                <div className="card-header">
-                                    <div className="card-header-title">
-                                        <p className="item-background-vis">Visitantes</p>
-                                    </div>
-                                    <div className="card-content">
-                                        <div className="content">
-                                            <p>Conozca, aprenda y contribuya con la comunidad estudiantil interconectada.</p>
-                                            <Link to="/visitantes" className="button is-normal">Ir ahora</Link>
-                                            <img className="img-profile-home" src={visProfile} alt="Perfil visitante"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/*Finaliza card en cuestión*/}
-                        </div>
-                    </div>
-                </section>
-                <ScrollDown/>
-                <section>
-                    <HomeBelow/>
-                    <Banner/>
-                    <Footer/>
-                </section>
-            </div>
+                    </section>
+                    <ScrollDown/>
+                    <section>
+                        <HomeBelow/>
+                        <Banner/>
+                        <Footer/>
+                    </section>
+                </div>
             </section>
         );
     }

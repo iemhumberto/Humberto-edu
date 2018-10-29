@@ -33,9 +33,9 @@ export default {
                     'Humberto-Mu%C3%B1oz-Ordo%C3%B1ez-docentes.svg',
             url: 'https://res.cloudinary.com/cristiansam/image/upload/v1540067317/Humberto-ui/Pdfs' +
                     '-docentes/PEI_HMO_2018_COMPLETO.pdf',
-            backImage: 'https://images.unsplash.com/photo-1536313068353-25ed2a981ea2?ixlib=rb-0.3.5&ixid' +
-                    '=eyJhcHBfaWQiOjEyMDd9&s=6d43ec67859069aac1151469c1861a9e&auto=format&fit=crop&w=' +
-                    '1328&q=80'
+            backImage: 'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-0.3.5&ixid' +
+                    '=eyJhcHBfaWQiOjEyMDd9&s=3aef6d10744dd7cbc836b631f46c1e5e&auto=format&fit=crop&w=' +
+                    '750&q=80'
         }, {
             id: 4,
             name: 'Perfil del docente',

@@ -26,4 +26,4 @@ export const JorInfo = () => (
             </a>
         </div>
     </section>
-)
+);

@@ -1,10 +1,10 @@
 {
   "short_name": "Humberto Muñoz Ordoñez",
-  "name": "Aprender a Aprender.",
+  "name": "Aprender a Aprender y triunfar.",
   "icons": [
     {
-      "src": "Escudo.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "Escudo.jpeg",
+      "sizes": "78x78 64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
   ],

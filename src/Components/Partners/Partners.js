@@ -58,7 +58,7 @@ class Partners extends Component {
                     <div className="title content has-text-centered">Nuestros Colaboradores</div>
                     <div className="subtitle content has-text-centered">En la construcción de una plataforma para una mejor <strong>Educación.</strong></div>
                 </section>
-                <section
+                <div
                     style={{
                     'display': 'flex',
                     'justifyContent': 'center',
@@ -67,7 +67,7 @@ class Partners extends Component {
                     'marginBottom':'20px'
                 }}
                     className="row is-desktop">
-                    {this.Partners()}</section>
+                    {this.Partners()}</div>
             </section>
         );
     }

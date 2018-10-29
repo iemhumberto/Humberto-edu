@@ -20,10 +20,10 @@ export default {
             name: 'Cristian Samboní',
             role: 'React Developer',
             description: 'Frontend Developer with React.JS. Escritor y redactor de artículos de tecnología' +
-                    'y marca personal. A menudo Freelancer.',
+                    'y marca personal. Algunas veces Freelancer.',
             imageUrl: 'https://avatars1.githubusercontent.com/u/24655632?s=460&v=4'
         }, {
-            id: 3,
+            id: 4,
             name: 'Github',
             role: 'Github Inc.',
             description: 'Plataforma para desarrolladores de software, Médicos, Astrónomos, Matemáticos, C' +

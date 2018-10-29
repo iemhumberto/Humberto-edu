@@ -21,11 +21,15 @@ const DireInst = 'https://goo.gl/maps/kxjR7jVPgds';
 
 class HomeBelow extends Component {
     render() {
+        const margin = {
+            'margin':'0px 0px !important',
+            'padding':'0% 0& !important'
+        }
         return (
             <section>
                 <Gradients/>
                 <MisionVision/>
-                <div className="row color-doc">
+                <div style={margin} className="row">
                     <img className="imagen-entorno-doc" src={EstEnv} alt="Entorno de estudio"/>
                     <div className="entorno-doc tile is-parent">
                         <div className="tile is-child notification is-info">
@@ -41,7 +45,7 @@ class HomeBelow extends Component {
                     </div>
                 </div>
                 <section>
-                    <div className="row">
+                    <div style={margin} className="row">
                         <div className="infraestructura-inst tile is-parent">
                             <div className="tile is-child notification is-info">
                                 <p className="title">Infraestructura de la Institución</p>
@@ -61,7 +65,7 @@ class HomeBelow extends Component {
                     </div>
                 </section>
                 <section>
-                    <div className="row color-doc">
+                    <div style={margin} className="row">
                         <img
                             className="imagen-deportistas-humberto"
                             src={DeparTalentos}
@@ -81,7 +85,7 @@ class HomeBelow extends Component {
                     </div>
                 </section>
                 <section>
-                    <div className="row">
+                    <div style={margin} className="row">
                         <img
                             className="imagen-deportistas-humberto"
                             src={UbiHumb}

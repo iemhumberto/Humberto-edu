@@ -26,7 +26,7 @@ class ExpoDay extends Component {
                         </div>
                         <div className="utility-info">
                             <ul className="utility-list">
-                                <li className="date">17 Octube 2018 (Jornada Mañana)</li>
+                                <li className="date">31 Octube 2018 (Ambas Jornadas)</li>
                             </ul>
                         </div>
                         <div className="gradient-overlay"></div>
