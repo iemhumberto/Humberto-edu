@@ -11,14 +11,21 @@ const Jorguen = 'https://res.cloudinary.com/cristiansam/image/upload/v1538929252
 const CarlosG = 'https://res.cloudinary.com/cristiansam/image/upload/v1538929250/Docentes/Carlos-' +
         'Gomez-Humberto-Munoz.jpg';
 
+const Winston = 'https://res.cloudinary.com/cristiansam/image/upload/v1541030723/Docentes/Winston' +
+        '-docente-Matematicas-Humbero-Munoz-Ordonez.png';
+const Monica = 'https://res.cloudinary.com/cristiansam/image/upload/v1541030135/Docentes/Docente' +
+        's-monica-fisica-Humberto-Munoz-Ordonez.jpg';
+const Yenny = 'https://res.cloudinary.com/cristiansam/image/upload/v1538929256/Docentes/Docente' +
+        's-destacada-ciencias-Humberto-Munoz-Ordonez.jpg';
+
 class DocInsignia extends Component {
     render() {
-        const style= {
-            'display':'flex',
-            'justifyContent':'center',
-            'alignContent':'center',
-            'width':'10%',
-            'margin':'auto auto'
+        const style = {
+            'display': 'flex',
+            'justifyContent': 'center',
+            'alignContent': 'center',
+            'width': '10%',
+            'margin': 'auto auto'
         }
         return (
             <section>
@@ -63,16 +70,16 @@ class DocInsignia extends Component {
                 <div>
                     <ul className="Docentes-insignia clearfix">
                         <div className="maestro">
-                            <img src={LeoV} alt="Maestro Insignia"/>
-                            <p>Leonor Valencia</p>
+                            <img src={Yenny} alt="Maestro Insignia"/>
+                            <p>Jenny</p>
                         </div>
                         <div className="maestro">
-                            <img src={Jorguen} alt="Maestro Insignia"/>
-                            <p>Jorguen Henao</p>
+                            <img src={Winston} alt="Maestro Insignia"/>
+                            <p>Winston Zapata</p>
                         </div>
                         <div className="maestro">
-                            <img src={CarlosG} alt="Maestro Insignia"/>
-                            <p>Carlos Gómez</p>
+                            <img src={Monica} alt="Maestro Insignia"/>
+                            <p>Mónica Giraldo</p>
                         </div>
                     </ul>
                     <Link to="/docentes-insignia">

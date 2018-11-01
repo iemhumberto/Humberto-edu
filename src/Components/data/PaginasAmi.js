@@ -29,7 +29,7 @@ export default {
         }, {
             id: 6,
             name: 'Nómina. Sistema humano.',
-            imageUrl: 'https://servicefutures.com/wp-content/uploads/2018/02/What-does-it-take-to-make-FM-and-HR-collaborate.png',
+            imageUrl: 'https://res.cloudinary.com/cristiansam/image/upload/v1541030969/Humberto-ui/Despredible-de-pago.jpg',
             link: 'http://rrhh.gestionsecretariasdeeducacion.gov.co:2383/humanoEL/Ingresar.aspx'
         }
     ]
