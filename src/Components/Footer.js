@@ -7,7 +7,7 @@ class Footer extends Component {
     render() {
         const style = {
             'display': 'inlineBlock',
-            'margin': 'auto auto',
+            'margin': 'auto auto'
         };
         return (
             <footer className="footer footer-size">
