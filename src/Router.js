@@ -18,6 +18,7 @@ import PaginasAmigas from './Components/Pages/Paginas-amigas';
 import HumberBici from './Components/Pages/Components/Humber-bici';
 import CampeonatoIntramural from './Components/Pages/Components/Campeonato-intramural';
 import ExpoDay from './Components/Pages/Components/Expo-Day';
+import ChangeLog from './Components/Pages/Changelog';
 
 import {Switch, Route} from 'react-router-dom';
 
@@ -36,6 +37,7 @@ class Router extends Component {
                     <Route exact path="/campeonato-intramural" component={CampeonatoIntramural}></Route>
                     <Route exact path="/paginas-amigas" component={PaginasAmigas}></Route>
                     <Route exact path="/mi-institucion" component={MiInstitucion}></Route>
+                    <Route exact path="/changelog" component={ChangeLog}></Route>
                     <Route exact path="/simbolos" component={Simbolos}></Route>
                     <Route exact path="/talentos" component={Talentos}></Route>
                     <Route exact path="/expo-day" component={ExpoDay}></Route>
