@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-
+/*Componente de Bienvenida 2019. Nuevo año escolar.*/
+import Welcome2019 from '../Flash-Components/Welcome';
+import Wtext from '../Flash-Components/Wtext';
 const MovilVersion = 'http://m.humberto-edu.surge.sh';
 
 class Intro extends Component {
     render() {
         return (
-            <section className="hero is-success is-fullheight intro-image ">
+            <section className="hero is-success is-fullheight intro-image">
+                <Welcome2019/>
                 <div className="hero-body">
                     <div className="container has-text-centered">
                         <h1 className="title intro-titulo">Bienvenido (a)</h1>
@@ -33,8 +36,9 @@ class Intro extends Component {
                                     className="button is-primary">Computador PC</div>
                             </Link>
                         </div>
-                    </div>
+                    </div> 
                 </div>
+                <Wtext/>
             </section>
         );
     }

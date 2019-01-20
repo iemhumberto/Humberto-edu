@@ -1052,3 +1052,32 @@ hr {
     align-self: center;
 
 }
+
+/*New concept*/
+/*Welcome message*/
+.welcome-message-component {
+    display: grid;
+}
+.tag-welcome-decoration {
+    display: inline-block;
+    color: white !important;
+}
+.sbtitle-welcome-message {
+    display: flex;
+    justify-content: center;
+    color: black !important;
+    margin: 0% !important ;
+}
+.message-primary {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+.content-message-welcome {
+    font-size: .8em;
+    font-style: italic;
+}
+.blog {
+    margin: 10px;
+
+}
