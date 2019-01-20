@@ -12,9 +12,9 @@ class Footer extends Component {
         return (
             <footer className="footer footer-size">
                 <div className="content has-text-centered">
-                    <p className="footer-desp">IEM Humberto Muñoz Ordoñez | 2018</p>
+                    <p className="footer-desp">IEM Humberto Muñoz Ordoñez | 2019</p>
                     <p className="footer-version">Versión
-                        <strong>1.0 Beta</strong>
+                        <strong> 1.2.2 Beta</strong>
                     </p>
                 </div>
                 <Link to="/changelog">

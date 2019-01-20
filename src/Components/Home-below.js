@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom';
 
 /*Elementos del UI*/
 import Partners from './Partners/Partners';
+/*Elemento de bienvenida 2019*/
+import InfoWelcome from '../Flash-Components/InfoWelcome';
+
 /*Import de habilidades y reconocimientos */
 import MisionVision from '../Components/VisionMision';
 
@@ -19,6 +22,7 @@ const UbiHumb = 'https://res.cloudinary.com/cristiansam/image/upload/v1538922160
         'to-Munoz-Instituto.svg';
 const DireInst = 'https://goo.gl/maps/kxjR7jVPgds';
 
+
 class HomeBelow extends Component {
     render() {
         const margin = {
@@ -27,6 +31,7 @@ class HomeBelow extends Component {
         }
         return (
             <section>
+            <InfoWelcome/>
                 <Gradients/>
                 <MisionVision/>
                 <div style={margin} className="row">

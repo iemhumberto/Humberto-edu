@@ -1079,5 +1079,24 @@ hr {
 }
 .blog {
     margin: 10px;
+}
 
+.card-container-info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px !important;
+}
+.card-container-info p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.info-important-principal {
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
 }
